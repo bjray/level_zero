@@ -53,8 +53,9 @@ gem 'jquery-rails'
 group :development, :test do
   # gem 'faker', :git => 'git://github.com/radar/faker.git' # to get rid of deprecation warnings
   # 
-  # # To use debugger
-  # # gem 'ruby-debug'
+  # To use debugger
+  gem 'ruby-debug19'
+  gem 'rack-mini-profiler'
 end
 
 group :test do
