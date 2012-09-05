@@ -170,7 +170,6 @@ DEPENDENCIES
   autotest
   capybara
   coffee-rails (~> 3.2.1)
-  cucumber
   cucumber-rails
   devise
   factory_girl_rails

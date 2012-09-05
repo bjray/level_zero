@@ -68,11 +68,9 @@ group :test do
 	#   # database_cleaner is not required, but highly recommended
 	#   gem 'database_cleaner'
   gem 'capybara'
- # gem 'database_cleaner'
- # gem 'cucumber-rails'
-  gem 'cucumber'
- # gem 'spork'
- # gem 'launchy'
+  # gem 'database_cleaner'
+  gem 'cucumber-rails'
+  # gem 'launchy'
   
   #for pivotal integration
  # gem 'pickler'
