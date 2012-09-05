@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
+gem 'rails', '>= 3.2.8'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -56,6 +56,7 @@ group :development, :test do
   # To use debugger
   gem 'ruby-debug19'
   gem 'rack-mini-profiler'
+  gem 'brakeman'
 end
 
 group :test do
