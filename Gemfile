@@ -61,7 +61,7 @@ group :test do
   gem "rspec-rails"
  # gem "spork"
   gem "autotest"
-  gem "machinist"
+  gem "factory_girl_rails"
   
   #cucumber stuff
   gem 'cucumber-rails'
